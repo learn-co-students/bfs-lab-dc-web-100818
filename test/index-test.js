@@ -47,7 +47,7 @@ describe('#findAdjacentNodes', function() {
 describe('#markDistanceAndPredecessor', function() {
   it("should return an array of adjacent nodes", function() {
     let twentyThirdAndSixth = vertices[1]
-    let twentyEighthAndBroadway = vertices[4]
+    let twentyEighthAndBroadway = vertices[2]
     let thirtyFourthAndSixth = vertices[0]
     let adjacentNodes = [twentyThirdAndSixth, twentyEighthAndBroadway]
 
